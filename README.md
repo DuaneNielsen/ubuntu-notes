@@ -33,11 +33,11 @@ sudo update-initramfs -u
 sudo apt install build-essential
 ```
 
-12.  Install the nvidia driver using the .run install method  (I've found this works best)
+13.  Install the nvidia driver using the .run install method  (I've found this works best)
 
 Now you should be able to reboot without a nomodeset, verify this works...
 
-13. Reboot and load into your primary OS
+14. Reboot and load into your primary OS
 
 ```
 sudo update-grub
