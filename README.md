@@ -25,14 +25,22 @@ sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.
 sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
 sudo update-initramfs -u
 ```
-11.  Install the nvidia driver using the .run install method  (I've found this works best)
+
+11. Reboot
+12. Install build essential
+
+```bash
+sudo apt install build-essential
+```
+
+12.  Install the nvidia driver using the .run install method  (I've found this works best)
 
 Now you should be able to reboot without a nomodeset, verify this works...
 
-12. Reboot and load into your primary OS
+13. Reboot and load into your primary OS
 
 ```
-sudo grub-update
+sudo update-grub
 sudo reboot
 ```
 
