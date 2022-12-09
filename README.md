@@ -4,7 +4,7 @@
 
 setup a new proflie
 
-
+![til](./create_terminal_profileprofile.gif)
 
 ```
 alias ssh_to_external_host='gnome-terminal --profile external_host -- ssh -X duane@192.168.1.133'
