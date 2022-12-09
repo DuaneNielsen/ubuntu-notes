@@ -1,5 +1,15 @@
 # ubuntu-notes
 
+## ssh to another server, export Xwindows via SSH, and change the terminal colorscheme
+
+setup a new proflie
+
+
+
+```
+alias ssh_to_external_host='gnome-terminal --profile external_host -- ssh -X duane@192.168.1.133'
+```
+
 ## setup a ubuntu multi boot partition
 
 1.  Ensure that your disk is setup with g-parted so that free space is available at the end of the disk
