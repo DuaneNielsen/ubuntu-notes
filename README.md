@@ -9,7 +9,7 @@ setup a new proflie
 then add alias to .bash_aliases or .bashrc
 
 ```
-alias ssh_to_external_host='gnome-terminal --profile external_host -- ssh -X duane@192.168.1.133'
+alias ssh_to_external_host='gnome-terminal --profile external_host -- ssh -X myaccount@192.168.1.133'
 ```
 
 ## setup a ubuntu multi boot partition
