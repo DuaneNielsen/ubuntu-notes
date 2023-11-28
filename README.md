@@ -57,3 +57,7 @@ sudo reboot
 ```
 
 Now you should have your old boot menu back.
+
+![image](./word-image-5.webp)
+![image](./word-image-6.webp)
+
