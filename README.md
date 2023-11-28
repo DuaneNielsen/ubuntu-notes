@@ -53,6 +53,7 @@ Now you should be able to reboot without a nomodeset, verify this works...
 
 ```
 sudo update-grub
+grub-install --efi-directory=/boot/efi
 sudo reboot
 ```
 
